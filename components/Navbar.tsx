@@ -10,11 +10,11 @@ const Navbar = () => {
     const user = null
 
   return (
-    <nav className='sticky z-60 bg-white top-0 inset-x-0 h-20'>
+    <nav className='sticky z-60 bg-white top-0 inset-x-0 h-16'>
         <header className='relative bg-white'>
             <Container>
-                <div className='border-b-4 border-purple-100'>
-                    <div className='flex h-20 items-center'>
+                <div className='border-b border-purple-100'>
+                    <div className='flex h-16 items-center'>
                         {/* TODO: Mobile Navbar */}
                     
                         <div className='ml-4 flex lg:ml-0'>
@@ -41,7 +41,7 @@ const Navbar = () => {
 
                                 {/* Separator */}
                                 {user ? null : (
-                                    <span className='h-6 w-px bg-gray-200' aria-hidden="true"/>
+                                    <span className='h-6 w-px bg-purple-200' aria-hidden="true"/>
                                 )}
 
                                 {/* Logged In - Show user details | Not Login - Create Account */}
@@ -55,13 +55,13 @@ const Navbar = () => {
 
                                 {/* Logged In - Separator */}
                                 {user ? (
-                                    <span className='h-6 w-px bg-gray-200' aria-hidden="true"/>
+                                    <span className='h-6 w-px bg-purple-200' aria-hidden="true"/>
                                 ) : null}
 
                                 {/* Not Login - Separator */}
                                 {user ? null : (
                                     <div className='flex lg:ml-6'>
-                                        <span className='h-6 w-px bg-gray-200' aria-hidden="true"/>
+                                        <span className='h-6 w-px bg-purple-200' aria-hidden="true"/>
                                     </div>
                                 )}
 

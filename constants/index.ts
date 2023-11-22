@@ -1,7 +1,7 @@
 export const PRODUCT_CATEGORIES = [
     {
-        label: 'UI Dashboard',
-        value: 'ui_dashboard' as const,
+        label: 'UI Dashboards',
+        value: 'ui_dashboards' as const,
         featured: [
             {
                 name: 'Editor picks',
@@ -21,8 +21,8 @@ export const PRODUCT_CATEGORIES = [
         ]
     },
     {
-        label: 'Themes',
-        value: 'themes' as const,
+        label: '3D Themes',
+        value: '3d_themes' as const,
         featured: [
             {
                 name: 'Editor picks',
